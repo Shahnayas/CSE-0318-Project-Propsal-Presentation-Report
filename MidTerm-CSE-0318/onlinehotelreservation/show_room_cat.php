@@ -12,7 +12,7 @@ $user=new User();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
    
-    <title>Hotel Booking</title>
+    <title>Online Hotel Reservation System</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -80,7 +80,7 @@ $user=new User();
         {
             if(mysqli_num_rows($result) > 0)
             {
-//               ********************************************** Show Room Category***********************
+//               
                 while($row = mysqli_fetch_array($result))
                 {
                     
